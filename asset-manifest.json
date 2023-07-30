@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/swl-app/%20%20/static/css/main.922f387a.css",
+    "main.js": "/swl-app/%20%20/static/js/main.8c352c11.js",
+    "static/media/swl.woff2": "/swl-app/%20%20/static/media/swl.813815fab34f066250ea.woff2",
+    "index.html": "/swl-app/%20%20/index.html",
+    "main.922f387a.css.map": "/swl-app/%20%20/static/css/main.922f387a.css.map",
+    "main.8c352c11.js.map": "/swl-app/%20%20/static/js/main.8c352c11.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.922f387a.css",
+    "static/js/main.8c352c11.js"
+  ]
+}
