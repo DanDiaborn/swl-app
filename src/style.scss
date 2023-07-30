@@ -93,4 +93,12 @@ label span{
   &__item, &__restrictions{
     width: 150px;
   }
+  &__loading{
+    width: 200px;
+    height: 100px;
+  }
+  &__loading-img{
+    // width: 200px;
+    height: 200px;
+  }
 }
