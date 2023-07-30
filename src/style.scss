@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'swl';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('swl'), url('fonts/swl.woff2') format('woff2');
+}
+
+a, a:visited, a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+body{
+  background-color: #000;
+  color: #fff !important;
+  font-family: 'swl';
+}
+
+span{
+  color: #fff; 
+}
+
+.container{
+  margin: 0 auto;
+  max-width: 1400px;
+  width: 100%
+}
+
+.ant-radio{
+  display: none !important; 
+}
+
+label span{
+  color: #000 !important;
+}
+
+.factions{
+  &__wrapper{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  &__img{
+    transition: .5s;
+  }
+  &__img-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+  }
+}
+
+.select-item{
+  &__wrapper{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.list{
+  &__wrapper{
+    margin-top: 30px;
+    text-align: center;
+  }
+  &__inner{
+    display: flex;
+    justify-content: center;
+    & > *{
+      display: flex;
+      align-items: center;
+      height: 30px;
+      border: #fff solid 1px;
+      justify-content: center;
+    }
+  }
+  &__exp-num{
+    width: 30px;
+  }
+  &__date{
+    width: 60px;
+  }
+  &__type, &__leader{
+    width: 120px;
+  }
+  &__item, &__restrictions{
+    width: 150px;
+  }
+}
